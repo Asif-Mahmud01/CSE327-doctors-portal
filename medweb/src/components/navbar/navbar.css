@@ -1,0 +1,88 @@
+
+ {/*styling the overall navbar */}
+ .navbarmain {
+  height: 50px;
+ 
+}
+ {/* styling the p text elements*/}
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+ {/* styling the Doctor's portal label on the top-left*/}
+.dp {
+  float: left;
+  border: solid 1px white;
+  padding-top: 10px;
+  padding-left: 30px;
+  width: 100px;
+  height: 30px;
+}
+
+
+ {/* styling the main navbar*/}
+.navbar {
+  float: right;
+  width: 690px;
+  height: 30px;
+}
+
+
+ {/* styling the list on the navbar*/}
+ul{
+  float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 150px;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+ 
+   {/*styling the elements in the navbar */}
+  li {
+    float: left;
+    display: block;
+    color: #002e6a;
+    text-align: right;
+    padding: 17px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+  }
+ 
+   {/* styling the elements in the navbar*/}
+  li a {
+    display: block;
+    color: #002e6a;
+    text-align: right;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+  }
+ 
+   {/* styling the elements in the navbar when hovering over it*/}
+  li a:hover {
+    background-color: #002e6a;
+    color: white;
+  }
+
+
+   {/* styling the login button on the navbar*/}
+  #log {
+    background-color: #002e6a;
+    color: white;
+  }
+
+
+   {/* styling the login button on the navbar when hoovering over it*/}
+  #log:hover {
+    background-color: white;
+    color: #002e6a;
+    border: solid 1px #002e6a;
+  }

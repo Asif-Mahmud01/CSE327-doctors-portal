@@ -1,0 +1,17 @@
+{/* styling the sidebar*/}
+.sdBr{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    height: 700px;
+    width: 250px;
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+}
+{/*styling the p text elements in the drawer*/}
+p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}

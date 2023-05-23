@@ -1,0 +1,84 @@
+{/*styling the div containing the table */}
+.main{
+    height: 700px;
+    width: 900px;
+    background-color: aliceblue;
+    padding-left: 40px;    
+    padding-top: 60px;
+    float: right;
+}
+
+{/* styling the h text elements*/}
+h{
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+{/* styling the heading above the table*/}
+.heading{
+    float: left;
+    color: #002e6a;
+}
+
+{/*styling the div containing the date input */}
+.setDate{
+
+    float: right;
+    padding-right: 45px;
+    
+
+}
+
+{/*setting color and border to the date input */}
+.setDate input{
+    background-color: white;
+    color: #002e6a;
+    border-color: #002e6a;
+}
+
+{/* changing color of the date input when hovering over it*/}
+.setDate input:hover {
+    background-color: #002e6a;
+    color: white;
+}
+
+{/*adding color and border to the table */}
+table{
+    border: solid 1px grey;
+    border-radius: 20px;
+}
+
+{/*styling the table */}
+#appointments {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+  }
+  
+  {/*styling the header and data cells in the table */}
+  #appointments td, #appointments th {
+   
+    padding: 10px;
+  }
+  
+  {/* styling the rows when hovering over it*/}
+  #appointments tr:hover {
+    background-color: #f2f1f1;
+}
+  
+  {/* styling the head elements in the table*/}
+  #appointments th {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: left;
+    background-color: #002e6a;
+    color: white;
+
+  }
+
+  {/*styling the rows in the table */}
+  #appointments tr {
+    background-color: white;
+    border: 1px solid #efeded;
+  }

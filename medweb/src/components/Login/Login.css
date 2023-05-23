@@ -1,0 +1,63 @@
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p1, a, label{
+    
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    padding-right: 140px;
+}
+.login label{
+    padding-right: 140px;
+    display: inline-block;
+    width: 110px;
+    text-align: left;
+    color: #002e6a;   
+    }
+    .login input{
+    width:250px;
+    height: 30px;
+    border-radius: 7px;
+    border-color: rgb(197, 196, 196);
+    border-width: 1px;
+    }
+
+.login{
+    
+    padding-top: 50px;
+    border:  2px solid #002e6a;
+    width: 500px;
+    height: 500px;
+}
+.loginButton input{
+    
+    width:255px;
+    height: 35px;
+    border-radius: 7px;
+    border-color: #002e6a;
+    border-width: 1px;
+    background-color: #002e6a;
+    color: white;
+}
+.createAccount input{
+    background-color: white;    
+    color: #002e6a;
+    width:252px;
+    height: 32px;
+    border-radius: 7px;
+    border-color: #002e6a;
+    border-width: 1.5px;
+}
+
+.loginButton input:hover{
+    background-color: white;    
+    color: #002e6a;
+}
+
+.createAccount input:hover{
+    background-color: #002e6a;
+    color: white;
+}
